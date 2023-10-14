@@ -1,0 +1,34 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "kfc restaurants",
+      "address": "saiful vijapur road",
+      "email": "kfc@gmail.com"
+    },
+    {
+      "name": "Mc d restaurants",
+      "address": "saat rasta vijapur road",
+      "email": "mcd@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "dominos restaurants",
+      "address": " vijapur road",
+      "email": "dominos@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "OM restaurants",
+      "address": " sextor 20 road",
+      "email": "om@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "MBA restaurants",
+      "address": " corner galli road",
+      "email": "mba@gmail.com",
+      "id": 5
+    }
+  ]
+}
