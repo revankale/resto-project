@@ -1,1 +1,32 @@
-<p>list-resto works!</p>
+<div class="row mt-3">
+  <div class="">
+    <div class="card border-dark">
+      <div class="card-header bg-transparent border-dark">List Restaurants</div>
+      <div class="col-md-12">
+        <div class="card-body text-success">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th scope="col">Sr No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr *ngFor="let item of collection">
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.address}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</div>
