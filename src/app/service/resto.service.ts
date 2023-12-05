@@ -14,8 +14,15 @@ export class RestoService {
     return this.http.get(this.url);
   }
 
-  saveResto(data:any){
+  saveResto(data: any) {
     return this.http.post(this.url, data);
+  }
 
+  deleteResto(id:any){
+   return this.http.delete('${this.url}/{id}');
+  }
+
+  editResto(id:any){
+    return this.http.delete('${this.url}/{id}');
   }
 }

@@ -1,4 +1,7 @@
-
+<div *ngIf="alert" class="alert alert-warning alert-dismissible fade show mt-2">
+  <strong>Success !</strong> Your data has been entered succesfully.
+  <button (click)="closeAlert()" type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 <form [formGroup]="addResto" (ngSubmit)="collectResto()">
   <div class="row mt-3">
     <div class="mx-4">

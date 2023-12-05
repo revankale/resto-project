@@ -25,9 +25,9 @@ export class AddRestoComponent implements OnInit {
 
   collectResto() {
     this.resto.saveResto(this.addResto.value).subscribe((result: any) => {
-      this.alert = true;
       this.addResto.reset({});
     })
+    this.alert = true;
   }
 
   closeAlert() {
